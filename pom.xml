@@ -30,6 +30,7 @@
         <module>eureka-client-2</module>
         <module>service-feign</module>
         <module>service-ribbon</module>
+        <module>zuul</module>
     </modules>
 
     <repositories>
@@ -125,6 +126,20 @@
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-starter-hystrix-dashboard</artifactId>
                 <version>1.4.0.RELEASE</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-starter-zuul</artifactId>
+                <version>1.4.4.RELEASE</version>
+            </dependency>
+
+
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>1.18.0</version>
+                <scope>provided</scope>
             </dependency>
         </dependencies>
     </dependencyManagement>
