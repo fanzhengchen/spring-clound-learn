@@ -1,4 +1,4 @@
-package com.xgn.fzc.eurekaclient;
+package com.xgn.fzc.eurekaclient2;
 
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.annotation.Value;
@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
  * Created with IntelliJ IDEA.
  * Description:
  * Date: 2018-06-23
- * Time: 5:52 PM
+ * Time: 6:45 PM
  *
  * @author: MarkFan
  * @since v1.0.0

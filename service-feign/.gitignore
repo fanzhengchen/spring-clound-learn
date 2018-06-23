@@ -23,15 +23,3 @@
 /dist/
 /nbdist/
 /.nb-gradle/
-
-/eureka/target
-/eureka-client/target
-*/target
-*.mvn
-
-
-src/main/resources/static/
-src/main/resources/templates/
-eureka-client/src/main/resources/static/
-eureka-client/src/main/resources/templates/
-eureka-client/target/
