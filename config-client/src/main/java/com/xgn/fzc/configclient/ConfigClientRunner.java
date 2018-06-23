@@ -31,6 +31,6 @@ public class ConfigClientRunner implements ApplicationRunner {
 
     @Override
     public void run(ApplicationArguments args) throws Exception {
-        log.info("properties {}", environment.getProperty(KEY), foo);
+        log.info("properties {}\r\n{}\r\n", environment.getProperty(KEY), foo);
     }
 }
