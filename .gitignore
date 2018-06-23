@@ -25,6 +25,10 @@
 /.nb-gradle/
 
 /eureka/target
+/eureka-client/target
+*/target
 *.mvn
 
 
+src/main/resources/static/
+src/main/resources/templates/
