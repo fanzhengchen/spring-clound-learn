@@ -31,6 +31,7 @@
         <module>service-feign</module>
         <module>service-ribbon</module>
         <module>config-server</module>
+        <module>zuul</module>
     </modules>
 
     <repositories>
@@ -130,8 +131,22 @@
 
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
+
                 <artifactId>spring-cloud-config-server</artifactId>
                 <version>1.4.0.RELEASE</version>
+            </dependency>
+
+            <dependency>
+                <artifactId>spring-cloud-starter-zuul</artifactId>
+                <version>1.4.4.RELEASE</version>
+            </dependency>
+
+
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>1.18.0</version>
+                <scope>provided</scope>
             </dependency>
         </dependencies>
     </dependencyManagement>
